@@ -1,0 +1,461 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    
+    color: rgb(41, 129, 245);
+    text-align: left;
+    font-weight: bolder;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+.gwords
+{
+    color: darkgray;
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 450px;
+    cursor: pointer;
+}
+.edu{
+    color: darkgray;
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 600px;
+    cursor: pointer;
+}
+.news{
+    color: darkgray;
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 750px;
+    cursor: pointer;
+}
+.regulation {
+    color: darkgray;
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 870px;
+    cursor: pointer;
+}
+.hoax{
+    background-color: #1818a1;
+    width: 150px;
+    height: 50px;
+    border-radius: .5em;
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    top: 8px;
+    left: 1020px;
+   line-height: 2.0em;
+    cursor: pointer;
+}
+div{
+width: 500px;
+height: 100px;
+background: rgb(41, 129, 245);
+
+}
+
+.r1{
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    opacity: 0.1;
+}
+.r2 {
+    position: absolute;
+    top: 105px;
+    left: 800px;
+}
+.r3{
+    position: absolute;
+    top: 205px;
+    left: 800px;
+}
+p{
+    color: darkgray;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+.fight
+{
+    color: rgb(2, 52, 99);
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+p.fv{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.fondoImagen1{
+    background-color: rgb(41, 129, 245);
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    background: rgb(41, 129, 245);
+}
+p.schedule{
+    position: absolute;
+    top: 450px;
+    left: 150px;
+}
+p.emoji1{
+    position: absolute;
+    top: 445px;
+    left: 115px;
+
+}
+section{
+    width: 600px;
+    height: 100px;
+    color: rgba(199, 22, 22, 0.795);
+    opacity: 0.5;
+    top: 500px;
+    left: 125px;
+}
+.scheduleline{
+    color: rgba(199, 22, 22, 0.795);
+    opacity: 0.5;
+    top: 500px;
+    left: 125px;
+}
+p.location{
+    position: absolute;
+    top: 520px;
+    left: 170px;
+}
+ p.jakarta {
+     color: rgb(2, 52, 99); 
+     position: absolute;
+     top: 560px;
+     left: 220px;
+ }
+p.date{
+    position: absolute;
+    top: 520px;
+    left: 400px;
+}
+ p.july {
+     color: rgb(2, 52, 99);
+     position: absolute;
+     top: 560px;
+     left: 400px;
+ }
+p.vaccinetype{
+    position: absolute;
+    top: 520px;
+    left: 570px;
+}
+ p.moderna{
+     color: rgb(2, 52, 99); 
+     position: absolute;
+     top: 560px;
+     left: 650px;
+ }
+
+ p.submit{
+    background-color:rgb(35, 66, 167);
+    width: 150px;
+    height: 50px;
+    border-radius: .5em;
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    top: 525px;
+    left: 850px;
+   line-height: 2.0em;
+    cursor: pointer;
+}
+
+.should
+{
+    color: rgb(2, 52, 99);
+    position: absolute;
+    top: 900px;
+    left: 100px;
+}
+p.order {
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+}
+h4{
+    font-size: 20px;
+    color: rgb(2, 52, 99);
+}
+.minimize {
+    position: absolute;
+    top: 1300px;
+    left: 150px;
+}
+.minimizetext{
+    font-size: 15px ;
+    text-align: justify;
+    position: absolute;
+    top: 1400px;
+    left: 150px;
+}
+.antibodies{
+    position: absolute;
+    top: 1300px;
+    left: 450px;
+}
+.antibodiestext{
+    font-size: 15px ;
+    text-align: justify;
+    position: absolute;
+    top: 1400px;
+    left: 450px;
+}
+.protecting{
+    position: absolute;
+    top: 1300px;
+    left: 750px;
+}
+.protectingtext{
+    font-size: 15px ;
+    text-align: justify;
+    position: absolute;
+    top: 1400px;
+    left: 750px;
+}
+.creating{
+    position: absolute;
+    top: 1300px;
+    left: 1050px;
+}
+.creatingtext
+{
+    font-size: 15px;
+    text-align: justify;
+    position: absolute;
+    top: 1400px;
+    left: 1050px;   
+}
+.preparations {
+    color: rgb(2, 52, 99);
+    position: absolute;
+    top: 1600px;
+    left: 700px;
+}
+p.preparationstext{
+    position: absolute;
+    top: 1700px;
+    left: 700px;
+}
+.avoid1{
+    position: absolute;
+    top: 1850px;
+    left: 750px;
+    font-weight: lighter;
+    cursor: pointer;    
+}
+.avoid2{
+    position: absolute;
+    top: 1925px;
+    left: 750px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+p.avoidtext {
+    position: absolute;
+    top: 1975px;
+    left: 750px;
+    font-weight: lighter;
+}
+.eat{
+    position: absolute;
+    top: 2100px;
+    left: 750px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.get {
+    position: absolute;
+    top: 2150px;
+    left: 750px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.exercise {
+    position: absolute;
+    top: 2200px;
+    left: 750px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.emergency{
+    color: rgb(2, 52, 99);
+    position: absolute;
+    top: 2350px;
+    left: 100px;
+}
+p.emergencytext{
+    position: absolute;
+    top: 2425px;
+    left: 100px;
+}
+.call{
+    position: absolute;
+    top: 2625px;
+    left: 150px;
+}
+.video{
+    position: absolute;
+    top: 2775px;
+    left: 150px;
+}
+.chat{
+    position: absolute;
+    top: 2625px;
+    left: 400px;
+}
+.message{
+    position: absolute;
+    top: 2775px;
+    left: 400px;
+}
+.callnow{
+    background-color: rgb(226, 229, 240);
+    width: 150px;
+    height: 50px;
+    border-radius: .5em;
+    color: rgb(35, 66, 167);
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    top: 2700px;
+    left: 150px;
+   line-height: 2.0em;
+    cursor: pointer;
+}
+.videonow{
+    background-color: rgb(226, 229, 240);
+    width: 150px;
+    height: 50px;
+    border-radius: .5em;
+    color: rgb(35, 66, 167);
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    top: 2850px;
+    left: 150px;
+   line-height: 2.0em;
+    cursor: pointer;
+}
+.chatnow{
+    background-color: rgb(226, 229, 240);
+    width: 150px;
+    height: 50px;
+    border-radius: .5em;
+    color: rgb(35, 66, 167);
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    top: 2700px;
+    left: 400px;
+   line-height: 2.0em;
+    cursor: pointer;
+}
+.messagenow{
+    background-color: rgb(226, 229, 240);
+    width: 150px;
+    height: 50px;
+    border-radius: .5em;
+    color: rgb(35, 66, 167);
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    top: 2850px;
+    left: 400px;
+   line-height: 2.0em;
+    cursor: pointer;
+}
+
+.about{
+    position: absolute;
+    top: 3100px;
+    left: 600px;
+    cursor: pointer;
+}
+.company{
+    position: absolute;
+    top: 3100px;
+    left: 800px;
+    cursor: pointer;
+}
+.support{
+    position: absolute;
+    top: 3100px;
+    left: 1000px;
+    cursor: pointer;
+
+}
+p.rights{
+    position: absolute;
+    top: 3350px;
+    left: 100px;
+}
+p.terms{
+    position: absolute;
+    top: 3350px;
+    left: 750px;
+    cursor: pointer;
+}
+p.privacy{
+    position: absolute;
+    top: 3350px;
+    left: 1050px;
+    cursor: pointer;
+}
+.vacci{
+    position: absolute;
+    top: 3100px;
+    left: 100px;
+    cursor: pointer;
+}
+.img1{
+  position: absolute;
+  top: 200px;
+  left: 825px;
+  
+}
+.img2
+{
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+    height: 750px;
+    width: 550px;
+}
+.img3
+{
+position: absolute;
+    top: 2250px;
+    left: 700px;
+    height: 750px;
+    width: 550px;
+}
+
+
+
+    /*
+footer{
+    background-color: #afb7e2d0;
+    padding: 100px;
+    position: absolute;
+    top: 3050px;
+}
